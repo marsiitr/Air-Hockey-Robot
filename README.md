@@ -28,7 +28,7 @@
  
 ## Mechanical aspect of the design
 ### Structure
- ⚙  The table top(design below) or the actual playing area is made of MDF board to be supported      by the sides made of plyboard. On MDF board holes are drilled so as to insert LDR from the      back side. A total of three 2-rod frames are used which allows the defender to cover its        half completely.
+ ⚙  The table top(design below) or the actual playing area is made of MDF board to be supported by the sides made of plyboard. On MDF board holes are drilled so as to insert LDR from the back side. A total of three 2-rod frames are used which allows the defender to cover its half completely.
  ⚙  3D printed frame(design below) connected through 2 rods for holding encoders and DC motors.
  ⚙  Defender(design below) which actually plays the game and does the job of hitting the puck.
  ⚙  3D printed L frame(design below) which slides over side rods, holds encoder and DC motor and     is used to connect the two transversal rods on which defender slides.
@@ -50,7 +50,8 @@
  Johnson DC motors are used for traversal of the defender over the rods.
 ### Controllers
  ⚙ Arduino MEGA is used as a microcontroller board.
- ⚙ cytron motor driver is used to control DC motors.
+     We have numbered each LDR and measured its distances from the origin (which is a longitudinal centreline) like a 1D numberline. Figure below.
+ ⚙ Cytron motor driver is used to control DC motors.
 ### Functionality
  ⚙ As soon as a LDR sensor is devoid of room light which means the puck is directly above it,it     sends a signal to the microcontroller.
  ⚙ Arduino MEGA is so programmed to identify that particular sensor and instruct the motor          driver to start the DC motors to bring the defender in longitudinal alignment with the puck     while staying back and hit it with a force as soon as it crosses the first row of sensors.
