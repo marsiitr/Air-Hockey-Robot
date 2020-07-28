@@ -30,6 +30,7 @@
 
 ### Structure
  1. The table top(design below) or the actual playing area is made of MDF board to be supported by the sides made of plyboard. On MDF board holes are drilled so as to insert LDR from the back side. A total of three 2-rod frames are used which allows the defender to cover its half completely.
+ ![Table top view](https://user-images.githubusercontent.com/68807083/88698554-d375e180-d123-11ea-9b50-9f69cfdb6388.jpg)
  2. 3D printed frame(design below) connected through 2 rods for holding encoders and DC motors.
  ![Side frame type1](https://user-images.githubusercontent.com/68807083/88667544-238e7d00-d0ff-11ea-845e-cb732a518fd7.jpg)
  3. Defender(design below) which actually plays the game and does the job of hitting the puck.
