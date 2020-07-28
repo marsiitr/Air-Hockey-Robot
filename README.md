@@ -35,7 +35,7 @@
  3. Defender(design below) which actually plays the game and does the job of hitting the puck.
  ![Defender](https://user-images.githubusercontent.com/68807083/88667478-0ce82600-d0ff-11ea-8cc2-49220d121cac.jpg)
  4. 3D printed L frame(design below) which slides over side rods, holds encoder and DC motor and is used to connect the two transversal rods on which defender slides.
- ![L frame](https://user-images.githubusercontent.com/68807083/88667526-1d989c00-d0ff-11ea-81d8-4d7cfd483a9a.jpg)
+   ![L frame](https://user-images.githubusercontent.com/68807083/88667526-1d989c00-d0ff-11ea-81d8-4d7cfd483a9a.jpg)
 
 ### Movements
  The defender traverses distances on metal rods with the help of linear bearings of size 8mm.
