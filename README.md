@@ -2,9 +2,9 @@
 ##### Shrishti'20, IITR
 ## Images of the project
 1. Table isometric view 1
-
+![Table isometric view 1](https://user-images.githubusercontent.com/68807083/88667192-a8c56200-d0fe-11ea-8249-519fb2419034.jpg)
 2. Table isometric view 2 
-
+![Table isometric view 2](https://user-images.githubusercontent.com/68807083/88667204-ac58e900-d0fe-11ea-921f-a25de0228811.jpg)
 ## Abstract
  To create an autonomous gaming system of air hockey where one player is human and other side will be played by a bot. The bot will automatically detect the position of the moving puck at every instant and defend or strike accordingly. The aim is to set up difficulty levels as well whose control will be subject to the human player.
  
@@ -31,8 +31,11 @@
 ### Structure
  1. The table top(design below) or the actual playing area is made of MDF board to be supported by the sides made of plyboard. On MDF board holes are drilled so as to insert LDR from the back side. A total of three 2-rod frames are used which allows the defender to cover its half completely.
  2. 3D printed frame(design below) connected through 2 rods for holding encoders and DC motors.
+ ![Side frame type1](https://user-images.githubusercontent.com/68807083/88667544-238e7d00-d0ff-11ea-845e-cb732a518fd7.jpg)
  3. Defender(design below) which actually plays the game and does the job of hitting the puck.
- 4. 3D printed L frame(design below) which slides over side rods, holds encoder and DC motor and     is used to connect the two transversal rods on which defender slides.
+ ![Defender](https://user-images.githubusercontent.com/68807083/88667478-0ce82600-d0ff-11ea-8cc2-49220d121cac.jpg)
+ 4. 3D printed L frame(design below) which slides over side rods, holds encoder and DC motor and is used to connect the two transversal rods on which defender slides.
+ ![L frame](https://user-images.githubusercontent.com/68807083/88667526-1d989c00-d0ff-11ea-81d8-4d7cfd483a9a.jpg)
 
 ### Movements
  The defender traverses distances on metal rods with the help of linear bearings of size 8mm.
@@ -62,14 +65,15 @@
  2. Arduino MEGA is so programmed to identify that particular sensor and instruct the motor driver to start the DC motors to bring the defender in longitudinal alignment with the puck while staying back and hit it with a force as soon as it crosses the first row of sensors.
 
 ## Arduino code
- 1. We have recognized each sensor as a memory place in a 2D array. We have numbered each LDR and measured its distance from the origin (which is a longitudinal centreline) like a 1D numberline as shown below.
+ 1. We have recognized each sensor as a memory place in a 2D array. We have numbered each LDR and measured its distance from the origin (which is a longitudinal centreline) like a 1D numberline as shown below. Refer to src file.
+ ![LDR setup figure](https://user-images.githubusercontent.com/68807083/88666808-318fce00-d0fe-11ea-8741-c41be6cc9d71.jpg)
  2. Function 'movemotor' comprises a switch statement and has three arguments. a) a: takes switch case, b) across: takes the transversal displacement, c) forward: takes the longitudinal displacement. This function is called whenever any LDR sends signal of pucks presence and the parameters are passed accordingly to align the defender longitudinaly with the puck. The forward parameter is zero untill the puck crosses row 3. After row 3 is crossed forward parameter has a value and the motor move the defender forward by that value to hit the puck.
  3. Function 'encoder1' and 'encoder2' keeps track of the rotation of motor 1 and motor 2 respectively and feedbacks the coordinates of the defender.      
 
 ## Workflow chart
- 
+ ![workflow chart](https://user-images.githubusercontent.com/68807083/88667786-723c1700-d0ff-11ea-91a0-9e963118dab7.jpg)
 ## Cost structure
-
+![cost](https://user-images.githubusercontent.com/68807083/88667966-a44d7900-d0ff-11ea-9c41-c59edc657d8f.jpg)
 ## Application 
  1.  Gaming parlours
  2.  Shopping malls: can be installed as quick game challenges 
