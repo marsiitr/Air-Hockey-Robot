@@ -91,12 +91,12 @@ Johnson DC motors are used for traversal of the defender over the rods.
 2.  Image processing can be incorporated to contemplate trajectories.
  
 ## Team members
-1. Mohit Singh (https://github.com/mohitschoudhary)
-2. Naman Agarwalla (https://github.com/naman99-agar)
-3. Naman Pesricha (https://github.com/pesricha)
-4. Ojus Thool (https://github.com/ojusthool)
-5. Pranav Kumar (https://github.com/Pranav123-alt)
-6. Rishita (https://github.com/Rishita-003)
+1. [Mohit Singh](https://github.com/mohitschoudhary)
+2. [Naman Agarwalla](https://github.com/naman99-agar)
+3. [Naman Pesricha](https://github.com/pesricha)
+4. [Ojus Thool](https://github.com/ojusthool)
+5. [Pranav Kumar](https://github.com/Pranav123-alt)
+6. [Rishita](https://github.com/Rishita-003)
 
 ## Mentors 
 1. Tabish Madni (https://github.com/Tmadni)
