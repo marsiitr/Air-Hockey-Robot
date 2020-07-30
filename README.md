@@ -1,6 +1,5 @@
 # AIR HOCKEY ROBOT
 ### Shrishti'20, IITR
-## Image of the project
 Table isometric view 
 ![Table isometric view 1](https://user-images.githubusercontent.com/68807083/88667192-a8c56200-d0fe-11ea-8249-519fb2419034.jpg)
 
