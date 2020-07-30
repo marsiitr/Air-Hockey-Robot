@@ -1,15 +1,15 @@
 # AIR HOCKEY ROBOT
 ### Shrishti'20, IITR
 ## Image of the project
-1. Table isometric view 
+Table isometric view 
 ![Table isometric view 1](https://user-images.githubusercontent.com/68807083/88667192-a8c56200-d0fe-11ea-8249-519fb2419034.jpg)
 
 ## Abstract
-<p align="justify">To create an autonomous gaming system of air hockey where one player is human and other side will be played by a bot. The bot will automatically detect the position of the moving puck at every instant and defend or strike accordingly. The aim is to set up difficulty levels as well whose control will be subject to the human player.
+<p align="justify">To create an autonomous gaming system of air hockey where one player is human and other side will be played by a bot. The bot will automatically detect the position of the moving puck at every instant and defend or strike accordingly. The aim is to set up difficulty levels as well whose control will be subject to the human player.</p>
  
 ## Motivation
 <p align="justify">The importance of a game's experience depends on how much general interest it can generate. In today's digital era almost every gamer is fascinated by a tinge of innovation and technology in ordinary gaming consoles. As a result this idea of Air Hockey Robot would definitely serve the purpose. And nevetheless, to give a kickstart to the interests of freshers like us in robotics, this proposal is a perfect opportunity for us to learn.
-The mechanism used here to move the defender is inspired by 3D printer mechanism.
+The mechanism used here to move the defender is inspired by 3D printer mechanism.</p>
 
 ## Components
 1. MS rods X 6
@@ -99,8 +99,8 @@ Johnson DC motors are used for traversal of the defender over the rods.
 6. [Rishita](https://github.com/Rishita-003)
 
 ## Mentors 
-1. Tabish Madni (https://github.com/Tmadni)
-2. Yashutosh Bansal (https://github.com/yashutoshbansal)
+1. [Tabish Madni](https://github.com/Tmadni)
+2. [Yashutosh Bansal](https://github.com/yashutoshbansal)
 
 ## References
 1.  https://howtomechatronics.com/arduino-projects/
